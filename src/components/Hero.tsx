@@ -13,32 +13,32 @@ export function Hero() {
       <Header />
 
       <div className="pb-16 mt-auto text-center relative">
-        <Pill className="mb-6">БЕТА-ВЕРСИЯ</Pill>
+        <Pill className="mb-6">УРОК ПО КИБЕРБЕЗОПАСНОСТИ</Pill>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
-          Раскройте ваш <br />
-          <i className="font-light">будущий</i> потенциал
+          Не попадись <br />
+          <i className="font-light">на крючок</i> мошенников
         </h1>
         <p className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-8 max-w-[440px] mx-auto">
-          Через стратегии постоянного инвестирования, превосходящие рынок
+          Узнай, как распознать обман в социальных сетях и защитить себя от злоумышленников
         </p>
 
-        <a className="contents max-sm:hidden" href="#contact">
+        <a className="contents max-sm:hidden" href="#about">
           <Button
             className="mt-14"
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Связаться с нами]
+            [Начать урок]
           </Button>
         </a>
-        <a className="contents sm:hidden" href="#contact">
+        <a className="contents sm:hidden" href="#about">
           <Button
             size="sm"
             className="mt-14"
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Связаться с нами]
+            [Начать урок]
           </Button>
         </a>
       </div>
